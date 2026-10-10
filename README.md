@@ -1,4 +1,5 @@
 # experiment-kit
+[![CI](https://github.com/yashsabbavarapu/experiment-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/yashsabbavarapu/experiment-kit/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 A deliberately small, honest experimentation framework for growth teams. Hypothesis registry, deterministic assignment, idempotent event ingestion, and a readout that refuses to give you an answer it can't stand behind.
 
