@@ -1,0 +1,14 @@
+# Preregistered before launch. Every field below is frozen once added.
+name: ab-checkout-copy
+owner: Priya (growth, checkout)
+change: Replace the three-paragraph checkout explainer with one line of benefit copy and a single CTA.
+rationale: "Session replays show users scrolling past the explainer and abandoning; less reading before the CTA should lift completion."
+primary_metric: checkout_conversion
+guardrail_metrics:
+  - checkout_error   # per exposed user; see README on ratio metrics
+baseline_rate: 0.10
+expected_lift: 0.025   # absolute: 10.0% to 12.5%
+start_date: 2026-09-01
+end_date: 2026-09-14
+split: [50, 50]
+seed: ab-checkout-copy-v1

@@ -1,0 +1,14 @@
+{
+  "name": "aa-homepage-hero",
+  "owner": "growth-platform",
+  "change": "Nothing. A/A test: both arms see the current homepage hero.",
+  "rationale": "Calibration. If the pipeline is sound, an A/A test must read null. Run one before trusting any A/B on a new surface.",
+  "primary_metric": "signup_conversion",
+  "guardrail_metrics": ["bounced"],
+  "baseline_rate": 0.10,
+  "expected_lift": 0.025,
+  "start_date": "2026-09-01",
+  "end_date": "2026-09-14",
+  "split": [50, 50],
+  "seed": "aa-homepage-hero-v1"
+}

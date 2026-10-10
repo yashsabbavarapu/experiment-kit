@@ -1,0 +1,14 @@
+{
+  "name": "peek-pricing-page",
+  "owner": "Marco (growth, monetization)",
+  "change": "Move the annual-plan toggle above the pricing table and default it to annual.",
+  "rationale": "Annual pricing anchors a lower monthly number; surfacing it first should lift paid conversion.",
+  "primary_metric": "paid_conversion",
+  "guardrail_metrics": ["support_ticket"],
+  "baseline_rate": 0.10,
+  "expected_lift": 0.02,
+  "start_date": "2026-09-01",
+  "end_date": "2026-09-21",
+  "split": [50, 50],
+  "seed": "peek-pricing-page-v1"
+}

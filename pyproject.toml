@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "experiment-kit"
+version = "0.1.0"
+description = "A small, honest experimentation framework for growth teams: the discipline, not the platform"
+requires-python = ">=3.11"
+
+[project.scripts]
+experiment-kit = "experiment_kit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true

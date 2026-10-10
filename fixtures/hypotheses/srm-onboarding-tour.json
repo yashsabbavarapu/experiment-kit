@@ -1,0 +1,14 @@
+{
+  "name": "srm-onboarding-tour",
+  "owner": "Jun (growth, activation)",
+  "change": "Replace the static onboarding checklist with a five-step product tour.",
+  "rationale": "Guided first sessions should raise activation for users who never find the core feature.",
+  "primary_metric": "activated",
+  "guardrail_metrics": ["unsubscribed"],
+  "baseline_rate": 0.10,
+  "expected_lift": 0.025,
+  "start_date": "2026-09-01",
+  "end_date": "2026-09-14",
+  "split": [50, 50],
+  "seed": "srm-onboarding-tour-v1"
+}
